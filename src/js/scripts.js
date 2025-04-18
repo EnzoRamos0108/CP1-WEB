@@ -37,13 +37,13 @@ function calcularIMC(peso, altura) {
 
     switch (classificacao) {
         case "abaixo":
-            console.log(Seu IMC é ${imc}. Você está abaixo do peso);
+            console.log(`Seu IMC é ${imc.toFixed(2)}. Você está abaixo do peso`);
             break;
         case "ideal":
-            console.log(Seu IMC é ${imc}. Você está no peso ideal);
+            console.log(`Seu IMC é ${imc.toFixed(2)}. Você está no peso ideal`);
             break;
         case "acima":
-            console.log(Seu IMC é ${imc}. Você está acima do peso);
+            console.log(`Seu IMC é ${imc.toFixed(2)}. Você está acima do peso`);
             break;
         default:
             console.log("Não foi possível calcular a categoria do IMC.");
