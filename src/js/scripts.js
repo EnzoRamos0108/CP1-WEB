@@ -79,3 +79,26 @@ if (usuarioDigitado === usuario && senhaDigitada === senha) {
     console.log("Falha na autenticação! Usuário ou senha incorretos.");
 }
 console.log('--------------------------------------------')
+
+// Questão 6 - Cálculo da média das notas no curso da vinharia
+console.log('Questão 6')
+console.log("Você participou do nosso curso de Sommeliers da Vinharia Agnello. Vamos calcular sua média final e ver se foi aprovado!");
+
+let notas = [7, 8, 6, 5, 9, 6.5, 7];
+let soma = 0;
+
+for (let i = 0; i < notas.length; i++) {
+    soma += notas[i];
+}
+
+let media = soma / notas.length;
+
+console.log("Sua média foi: " + media.toFixed(2));
+
+if (media >= 6) {
+    console.log("Parabéns! Você foi aprovado e agora é um Sommelier certificado pela Vinharia Agnello! 🍷");
+} else {
+    console.log("Infelizmente você não alcançou a média. Recomendamos revisar os vinhos tintos e tentar novamente.");
+}
+console.log('--------------------------------------------')
+
