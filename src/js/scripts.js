@@ -55,9 +55,27 @@ calcularIMC(70, 1.75);
 console.log('--------------------------------------------')
 
 //Questão 4 - programa que faz repetição até 50 (usando for)
-console.log("Questão 4 - programa que faz repetição até 50 (usando for)")
+console.log("Questão 4")
 console.log("Quantas garrafas da nossa edição especial 'Vinho Branco Chardonnay meio-seco' conseguimos embalar hoje?");
 for (let i = 1; i <= 50; i++) {
     console.log("Embalando garrafa número: " + i);
+}
+console.log('--------------------------------------------')
+
+// Questão 5 - Login de funcionário com base na vinharia.
+
+console.log("Questão 5")
+console.log("Apenas funcionários cadastrados podem acessar o sistema de controle dos vinhos. Qual seu login?");
+
+let usuario = "admin";
+let senha = "1234";
+
+let usuarioDigitado = "admin"; 
+let senhaDigitada = "1234";     
+
+if (usuarioDigitado === usuario && senhaDigitada === senha) {
+    console.log("Login realizado com sucesso! Bem-vindo ao sistema da Vinharia Agnello 🍷");
+} else {
+    console.log("Falha na autenticação! Usuário ou senha incorretos.");
 }
 console.log('--------------------------------------------')
