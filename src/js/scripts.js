@@ -53,3 +53,11 @@ function calcularIMC(peso, altura) {
 // Exemplo de uso:
 calcularIMC(70, 1.75);
 console.log('--------------------------------------------')
+
+//Questão 4 - programa que faz repetição até 50 (usando for)
+console.log("Questão 4 - programa que faz repetição até 50 (usando for)")
+console.log("Quantas garrafas da nossa edição especial 'Vinho Branco Chardonnay meio-seco' conseguimos embalar hoje?");
+for (let i = 1; i <= 50; i++) {
+    console.log("Embalando garrafa número: " + i);
+}
+console.log('--------------------------------------------')
