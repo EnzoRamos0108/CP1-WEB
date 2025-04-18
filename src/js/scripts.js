@@ -101,3 +101,29 @@ if (media >= 6) {
     console.log("Infelizmente você não alcançou a média. Recomendamos revisar os vinhos tintos e tentar novamente.");
 }
 console.log('--------------------------------------------')
+
+// Questão 7 - Detalhes do Curso de Sommeliers
+
+console.log("Você acabou de se formar no curso de Sommeliers da Vinharia Agnello. Vamos mostrar os detalhes da sua formação!");
+
+
+let nome = "Heitor Gabriel Mattos da Silva";
+let idade = 18;
+let curso = "Curso de Sommeliers";
+let ano = 2025;
+
+
+console.log("Nome: " + nome);
+console.log("Idade: " + idade);
+console.log("Curso: " + curso);
+console.log("Ano de Conclusão: " + ano);
+
+
+document.getElementById("dados").innerHTML = `
+    <p>Nome: ${nome}</p>
+    <p>Idade: ${idade}</p>
+    <p>Curso: ${curso}</p>
+    <p>Ano de Conclusão: ${ano}</p>
+`;
+
+console.log('--------------------------------------------')
