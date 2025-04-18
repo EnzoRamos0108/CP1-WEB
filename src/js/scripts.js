@@ -101,4 +101,3 @@ if (media >= 6) {
     console.log("Infelizmente você não alcançou a média. Recomendamos revisar os vinhos tintos e tentar novamente.");
 }
 console.log('--------------------------------------------')
-
