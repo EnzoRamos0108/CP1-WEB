@@ -140,3 +140,15 @@ console.log("a palavra ciência esta em: ",texto.indexOf("ciência"))
 console.log("a palavra métodos esta em: ",texto.indexOf("métodos"))
 
 console.log('--------------------------------------------')
+
+// Questão 9 - Conversão de string para float
+
+console.log("Questão 9")
+
+let precoVinhoString = "110.90";
+
+let precoVinho = parseFloat(precoVinhoString);
+
+console.log("Preço do vinho convertido com o 'parseFloat':", precoVinho);
+console.log("Tipo da variável antes da conversão:", typeof precoVinhoString);
+console.log("Tipo da variável após conversão:", typeof precoVinho);
