@@ -127,3 +127,16 @@ document.getElementById("dados").innerHTML = `
 `;
 
 console.log('--------------------------------------------')
+
+// Questão 8 - Buscando a posição por caractere
+
+console.log("Questão 8")
+
+let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
+
+console.log("em esta na posicão: ",texto.indexOf("em"))
+console.log("ia esta na posicão: ",texto.lastIndexOf("ia"))
+console.log("a palavra ciência esta em: ",texto.indexOf("ciência"))
+console.log("a palavra métodos esta em: ",texto.indexOf("métodos"))
+
+console.log('--------------------------------------------')
